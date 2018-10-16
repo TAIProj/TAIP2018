@@ -1,0 +1,71 @@
+\documentclass[12pt, oneside]{article}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\begin{document}
+\begin{titlepage}
+\begin{center}
+\vspace*{1cm}
+{\Huge Universitatea Alexandru Ioan Cuza Iași} \\
+\vspace{0.5cm}
+{\huge \textbf{Facultatea de Informatică}} \\
+\vspace{1.5cm}
+\includegraphics[width=3cm,height=4.5cm,keepaspectratio]{logo_fii3.png} \\
+\vspace{1cm}
+TAIP Project \\ 
+\vspace{0.5cm}
+{\Huge \textbf{Service Orchestration}} \\
+\vspace{1cm}
+
+
+\vspace{1cm}
+\end{center}
+\end{titlepage}
+	\section{What is service orchestration}
+	Service orchestration is the coordination and arrangement of multiple services exposed as a single aggregate service. Developers utilize service orchestration to support the automation of business procceses by loosely coupling services across different applications and enterprises and creating composite applications. In other words, service orchestration is the combination of service interactions to create higher-level business services. This works through the exchange of messages in the domain layer of enterprise applications. Since individual services are not programmed to cummunicate with other services, message must be exchanged according to a predetermined business logc and execution order so that the composite service or application can run as it is demanded by the end-user. 
+
+	\section{What others did}
+	\subsection{Serf}
+	\textbf{Decentralized Cluster Membership, Failure Detection, and Orchestration}
+	Serf is a decentralized solution for service discovery and orchestration that is lightweight, highly available, and fault tolerant \\
+	Serf runs on Linux, Mac OS X, and Windows. An efficient and lightweight gossip protocol is used to communicate with other nodes. Serf can detect ode failures and notify the rest of the cluster. An event system is build on top of Serf, letting you use Serf's gossip protocol to propagate events such as deploys, configuration changes, etc. Serf has no single point of failure. 
+	\begin{enumerate}
+	\item \textbf{Gossip-based Membership} \\
+	Serf relies on an efficient and lightweight gossip protocol to communicate with nodes. The Serf agents periodically exchange messages with each other in much the same way that a zombie apocalypse would occur. It start with one zombie but soon infects everyone. In practice, the gossip is very fast and extremely efficient. 
+	\item \textbf{Failure Detection} \\
+	Serf is able to quickly detect failed members and notify the rest of the cluster. This failure detection is build into the heart of the gossip protocol used by Serf. Like humans in a zombie apocalypse, everybody checks their peers for infection and quickly alerts the other living humans. Serf relies on a random probing technique which is proven to efficiently scale to clusters of any size.
+	\item \textbf{Custom Events} \\
+	In addition to managing membership, Serf can broadcast custom events and queries. These can be used to trigger deploys, restart processes, spread tales of human heroism, and anything else you may want. The event system is flexible and lightweight, making it easy for application developers and sysadmins alike to leverage. 
+	\end{enumerate}
+	
+	
+	
+	Here are some examples of what can Serf do:
+	\begin{enumerate}
+	\item Discovering web servers and automatically adding them to a load balancer \\
+	\item Organizing many memcached or res nodes into a cluster, perhaps with something like twemproxy or maybe just cofiguring an application with the address of all the nodes \\ 
+	\item Trigerring web deploys using the event system built on top of Serf \\
+	\item Propagating changes to configuration to relevant nodes. \\
+	\item Updating NS records to reflect cluster changes as they occur.
+	\end{enumerate}
+\newpage
+
+\begin{thebibliography}{9}
+\bibitem{serf} 
+https://www.serf.io/
+
+\bibitem{orchestration}
+https://www.mulesoft.com/resources/esb/service-orchestration-and-soa
+
+\bibitem{orchestration2}
+https://www.ciena.com/insights/what-is/what-is-service-orchestration.html
+
+\bibitem{gitorchestraion}
+https://github.com/hashicorp/serf/blob/master/README.md
+
+\bibitem{article}
+https://www.sciencedirect.com/science/article/pii/S016764230900029X
+
+\end{thebibliography}	
+	
+\end{document}
