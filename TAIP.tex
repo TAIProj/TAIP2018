@@ -1,5 +1,6 @@
 \documentclass[12pt, oneside]{article}
 \usepackage{amsfonts}
+\usepackage{cite}
 \usepackage{graphicx}
 \graphicspath{ {images/} }
 \begin{document}
@@ -66,14 +67,48 @@ The above query will generate an output containing information about the company
 
 The way the project works on it’s backend is that it has a number of microservices that gaters information regarding one single field (like exchange rate) from specialised sources (like a bank’s website). The services ar connected inside by a central services that dispatches the requests from various clients.
 
+\subsection{Amazon SES}
+AWS SES is another relevant example regarding services orchestration. SES stands for
+simple emailing service and it is an AWS services that enables the cloud customers to send
+emails using AWS infrastructure.
+Internally, SES is a collection o microservices that perform verification, content filtering, party
+screening, quota verification and score asignments on a email that is going to be send
+through the service’s pipeline.
+For example, let’s take a look at the diagram of the project’s backend:
+
+\includegraphics[width=15cm,height=20.5cm,keepaspectratio]{Capture.png} \\
+
+The above diagram just summarizes the central idea behind the project’s backend. The real
+architecture is much more complex and it is private to the Amazon.
+When a customer desires to send an email he make a call to the main gateway, the service
+that handles users requests. The gateway services redirects the call to other services in the
+backend. The path that an email has to traverse to the recipients inbox is called sending
+pipeline and works the following way:
+
+\begin{enumerate}
+\item The customer make an APi call to the gateway
+\item The gateway redirects to email to a service that perfoms various verifications on the email, such as i the user is indeed eligible for sending
+\item The reputation service decides if the email is going to be passed to the next node in the backend based on the reputation that this sender has. If a sender has low reputation, he's going to be allowed to send the email
+\item The last node in the service checks if the email doesn't contain any malware or sensitive content
+\item The email arrives in the customer's inbox
+\end{enumerate}
+
+This is the idea that an cloud email sending service is built on. Along side these services can
+appear another services, for example services that collects metrics like when the sending of
+an email failed due to bad reputation or failed the content filtering test.
 
 
 
+
+
+\cite{Marc-2009}
 
 
 \newpage
 
 \begin{thebibliography}{9}
+
+\bibliography{articles}
 \bibitem{serf} 
 https://www.serf.io/
 
@@ -89,6 +124,13 @@ https://github.com/hashicorp/serf/blob/master/README.md
 \bibitem{article}
 https://www.sciencedirect.com/science/article/pii/S016764230900029X
 
+\bibitem{aws1}
+https://aws.amazon.com/blogs/architecture/create-dynamic-contact-form
+
+\bibitem{aws2}
+https://aws.amazon.com/blogs/architecture/
 \end{thebibliography}	
+
+
 	
 \end{document}
