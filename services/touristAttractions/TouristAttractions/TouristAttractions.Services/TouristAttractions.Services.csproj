@@ -6,11 +6,13 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="EntityFramework" Version="6.2.0" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="2.1.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\TouristAttractions.API.Common\TouristAttractions.API.Common.csproj" />
+    <ProjectReference Include="..\TouristAttractions.API.DataContracts\TouristAttractions.API.DataContracts.csproj" />
   </ItemGroup>
 
 </Project>
