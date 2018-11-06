@@ -1,0 +1,125 @@
+{  
+   "objects":[  
+      {  
+         "Name":"Palatul Culturii Iaşi",
+         "Description":"Palatul din centrul Iaşilor, conceput în spiritul palatelor comunale din Europa de Vest, este o îmbinare fericită a mai multor stiluri arhitecturale: neogotic, romantic și neobaroc. Marcând puternic arhitectura vechii capitale a Moldovei, Palatul s-a impus ca o adevarată efigie încă de la apariţia ei în peisajul urbei.",
+         "imageURL":"https://www.laiasi.ro/wp-content/uploads/2017/12/palat-laiasi.ro_.jpg",
+         "Address":{  
+            "City":"Iaşi",
+            "Street":"Piaţa Ştefan cel Mare şi Sfânt nr. 1",
+            "ZipCode":"-",
+            "Country":"Romania"
+         }
+      },
+      {  
+         "Name":"Catedrala Mitropolitană din Iași",
+         "Description":"Actul de naştere al edificiului este decretul domnitorului Ioan Sandu Sturdza (8 august 1826), însă piatra de temelie şi construcţia propriu-zisă se datorează râvnei şi ostenelilor mitropolitului Veniamin Costachi. Lucrările au început în anul 1833. Arhitecţii vienezi Johann şi Gustav Freiwald au adoptat pentru noua biserică stilul neoclasic, întâlnit şi la alte biserici monumentale din ţări europene. S-a lucrat intens până în anul 1841, dar în 1842 mitropolitul Veniamin a fost silit să se retragă din scaun şi lucrările au fost întrerupte.",
+         "imageURL":"https://www.laiasi.ro/wp-content/uploads/2017/12/mitropoliaiasi.jpg",
+         "Address":{  
+            "City":"Iaşi",
+            "Street":"Bd. Ștefan cel Mare și Sfânt 16",
+            "ZipCode":"-",
+            "Country":"Romania"
+         }
+      },
+      {  
+         "Name":"Teatrul Naţional “Vasile Alecsandri” Iaşi",
+         "Description":"Oraş aşezat pe drumul mare de comerţ cu Polonia, cu Rusia şi cu ţările germane, era firesc ca între zidurile Iaşului să poposească – alături de negustori, cărăuşi, emisari de la curţile străine, misionari şi mulţi aventurieri – şi trupe care aduceau menajerii, circuri, panorame şi spectacole de teatru. La sfârşitul secolului al XVIII-lea şi începutul secolului al XIX-lea erau tot mai numeroşi feciorii de boieri ce mergeau să înveţe în Franţa, Germania sau Italia. Acolo făceau cunoştinţă cu teatrul cult aflat la mare cinste. Moda se întinde, şi întâiul animator al vieţii artistice şi culturale din Moldova, Gheorghe Asachi, joacă, ajutat de „diletanţi” din familiile Ghica şi Sturza, cea dintâi piesă în limba română, “Mirtil şi Hloe”, pastorală într-un act prelucrată după Gessner şi Florian.",
+         "imageURL":"https://www.laiasi.ro/wp-content/uploads/2017/12/teatru-iasi-laiasi.ro_.jpg",
+         "Address":{  
+            "City":"Iaşi",
+            "Street":"Str. Agatha Bârsescu nr. 18",
+            "ZipCode":"-",
+            "Country":"Romania"
+         }
+      },
+      {  
+         "Name":"Mănăstirea Sfinții Trei Ierarhi din Iași",
+         "Description":"Manastirea “Sf. Trei Ierarhi” este cea mai frumoasa ctitorie a domnului Tarii Moldovei, Vasile Lupu, o adevarata simfonie a artelor in rugaciune, construita intre anii 1637-1639.",
+         "imageURL":"https://www.laiasi.ro/wp-content/uploads/2017/12/trei-ierarhi-iasi.jpg",
+         "Address":{  
+            "City":"Iaşi",
+            "Street":"Bulevardul Ștefan cel Mare și Sfânt 28",
+            "ZipCode":"-",
+            "Country":"Romania"
+         }
+      },
+      {  
+         "Name":"Biblioteca Centrală Universitară “Mihai Eminescu” Iaşi",
+         "Description":"Edificiul, construit intre anii 1930-1934, a fost proiectat de arhitectul Constantin Jotzu si construit de inginerul Emil Prager. Initial, cladirea trebuia sa fie sediul Fundatiei Universitare Ferdinand -Ferdinand I Hohenzollern-Sigmaringen Rege al Romaniei intre anii 1914-1927. La 1 Septembrie 1945 cladirea a fost cedata Bibliotecii Centrale Universitare, institutie fondata in 1839. In 1948, statul roman a decis administrarea intregului patrimoniu al Fundatiei de catre Universitatea din Iasi.",
+         "imageURL":"https://www.laiasi.ro/wp-content/uploads/2017/12/biblioteca-centrala-universitara-iasi.jpg",
+         "Address":{  
+            "City":"Iaşi",
+            "Street":"-",
+            "ZipCode":"-",
+            "Country":"Romania"
+         }
+      },
+      {  
+         "Name":"Universitatea „Alexandru Ioan Cuza” din Iași",
+         "Description":"Universitatea Alexandru Ioan Cuza, fondata la data de 26 octombrie 1860, este cea mai veche universitate din Romania.",
+         "imageURL":"https://www.laiasi.ro/wp-content/uploads/revslider/universitatea-ai-cuza-iasi/universitate-uaic-iasi-2.jpg",
+         "Address":{  
+            "City":"Iaşi",
+            "Street":"-",
+            "ZipCode":"-",
+            "Country":"Romania"
+         }
+      },
+      {  
+         "Name":"Universitatea „Alexandru Ioan Cuza” din Iași",
+         "Description":"Universitatea Alexandru Ioan Cuza, fondata la data de 26 octombrie 1860, este cea mai veche universitate din Romania.",
+         "imageURL":"https://www.laiasi.ro/wp-content/uploads/revslider/universitatea-ai-cuza-iasi/universitate-uaic-iasi-2.jpg",
+         "Address":{  
+            "City":"Iaşi",
+            "Street":"-",
+            "ZipCode":"-",
+            "Country":"Romania"
+         }
+      },
+      {  
+         "Name":"Palatul Roznovanu – Primăria Iaşi",
+         "Description":"Actualul sediu al primariei, fostul Palat Roznovanu, este situat in inima Iasului, in apropierea celor mai semnificative monumente ale orasului. Cladirea impresionanta prin somptuozitate si fastul interioarelor, a fost construita in deceniile 7 – 10 ale sec. XVIII-lea si restaurata intre 1830 – 1833 de catre cunoscutul arhitect Johan Freywald, cel care a proiectat si Catedrala Metropolitana.",
+         "imageURL":"https://www.laiasi.ro/wp-content/uploads/2017/12/palatul-roznovanu-banner2-laiasi.jpg",
+         "Address":{  
+            "City":"Iaşi",
+            "Street":"-",
+            "ZipCode":"-",
+            "Country":"Romania"
+         }
+      },
+      {  
+         "Name":"Bojdeuca lui Ion Creangă",
+         "Description":"Bojdeuca lui Ion Creangă din Iași, primul muzeu memorial literar din România (inaugurat la 15 aprilie 1918), este una din cele 12 filiale literare din cadrul Muzeului Literaturii Române Iași.",
+         "imageURL":"https://www.laiasi.ro/wp-content/uploads/2017/12/bjdeuca-lui-creanga-banner2-laiasi.jpg",
+         "Address":{  
+            "City":"Iaşi",
+            "Street":"-",
+            "ZipCode":"-",
+            "Country":"Romania"
+         }
+      },
+      {  
+         "Name":"Parcul Copou şi Teiul lui Eminescu",
+         "Description":"Parcul Copou a inceput sa fie amenajat pe la anii 1833-1834, insa aspectul unei gradini moderne este dat de Mihalache Sturza.",
+         "imageURL":"https://www.laiasi.ro/wp-content/uploads/2017/12/parculcopou-laiasi.jpg",
+         "Address":{  
+            "City":"Iaşi",
+            "Street":"-",
+            "ZipCode":"-",
+            "Country":"Romania"
+         }
+      },
+      {  
+         "Name":"Grădina Botanică Iaşi",
+         "Description":"Grădina Botanică, înfiinţată în anul 1856, poartă numele fondatorului său, medicul şi naturalistul Anastasie Fătu. Este prima grădină botanică universitară românească şi, în acelaşi timp, cea mai mare din ţară, unică prin numărul mare de specii vegetale şi prin măsurile speciale de conservare aplicate. Amenajarea grădinii botanice pe Dealul Copou, începută în anul 1963, a fost continuată şi dezvoltată permanent.",
+         "imageURL":"https://img.youtube.com/vi/0J76UXpCKAs/maxresdefault.jpg",
+         "Address":{  
+            "City":"Iaşi",
+            "Street":"-",
+            "ZipCode":"-",
+            "Country":"Romania"
+         }
+      }
+   ]
+}

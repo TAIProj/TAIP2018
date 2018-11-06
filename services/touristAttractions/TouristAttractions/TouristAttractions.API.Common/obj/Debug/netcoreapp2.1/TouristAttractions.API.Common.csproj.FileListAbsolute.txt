@@ -8,4 +8,3 @@ D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractio
 D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.API.Common\obj\Debug\netcoreapp2.1\TouristAttractions.API.Common.AssemblyInfo.cs
 D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.API.Common\obj\Debug\netcoreapp2.1\TouristAttractions.API.Common.dll
 D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.API.Common\obj\Debug\netcoreapp2.1\TouristAttractions.API.Common.pdb
-D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.API.Common\obj\Debug\netcoreapp2.1\TouristAttractions.API.Common.csprojAssemblyReference.cache

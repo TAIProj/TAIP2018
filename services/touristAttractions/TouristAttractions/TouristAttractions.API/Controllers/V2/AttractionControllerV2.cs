@@ -27,7 +27,7 @@ namespace TouristAttractions.API.Controllers
 
         #region GET
         [HttpGet("{id}")]
-        public async Task<Attraction> Get(string id)
+        public async Task<Attraction> Get(Guid id)
         {
             var data = await _service.GetAsync(id);
 
@@ -71,7 +71,7 @@ namespace TouristAttractions.API.Controllers
 
         #region DELETE
         [HttpDelete("{id}")]
-        public async Task<bool> DeleteDevice(string id)
+        public async Task<bool> DeleteDevice(Guid id)
         {
             return await _service.DeleteAsync(id);
         }
