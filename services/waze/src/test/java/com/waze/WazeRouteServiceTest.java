@@ -21,6 +21,7 @@ public class WazeRouteServiceTest {
     WazeNotificationService wazeNotificationService = new WazeNotificationService();
 
     @Test
+    @Ignore
     public void getNotificationTest(){
         WazeTrafficNotificationsResponse res = wazeNotificationService.getNotifications("123", "123", "123", "123");
         assert(res.getAlerts().size() >= 1);
