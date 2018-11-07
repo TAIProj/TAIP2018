@@ -120,7 +120,10 @@ namespace TouristAttractions.API
             services.AddTransient<IAddressService, AddressService>();
             services.AddTransient<IAttractionRepository, AttractionRepository>();
             services.AddTransient<IAddressRepository, AddressRepository>();
-            services.AddDbContext<AttractionsDbContext> (options => options.UseSqlServer(Configuration.GetConnectionString("ConnectionString")));
+            services.AddDbContext<AttractionsDbContext> (options => options.UseSqlServer(
+                Configuration.GetConnectionString("ConnectionString"),
+                b => b.MigrationsAssembly("TouristAttractions.API")
+            ));
         }
 
 

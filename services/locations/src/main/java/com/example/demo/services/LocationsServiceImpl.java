@@ -26,7 +26,7 @@ public class LocationsServiceImpl implements LocationsService {
 
         try {
 
-            URL url = new URL("api/locations?category=" + category);
+            URL url = new URL("https://geocoder.api.here.com/6.2/geocode.json?app_id=MJodHR7FgrmWJh1YyBZf&app_code=ANkzjCNocTLMyl-PfYElzA&city=iasi&country=ro");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("GET");
             conn.setRequestProperty("Accept", "application/json");

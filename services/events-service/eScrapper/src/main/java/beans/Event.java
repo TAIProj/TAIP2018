@@ -5,6 +5,13 @@ public class Event {
     private PlainTextDate plainTextDateBeg;
     private PlainTextDate plainTextDateEnd;
 
+    public Event(String eventName, PlainTextDate plainTextDateBeg, PlainTextDate plainTextDateEnd, String eventLocation) {
+        this.eventName = eventName;
+        this.plainTextDateBeg = plainTextDateBeg;
+        this.plainTextDateEnd = plainTextDateEnd;
+        this.eventLocation = eventLocation;
+    }
+
     public Event() {}
 
     public PlainTextDate getPlainTextDateBeg() {
