@@ -6,6 +6,12 @@ public class PlainTextDate {
     private String month;
     private String dayname;
 
+    public PlainTextDate(String day, String month, String dayname) {
+        this.day = day;
+        this.month = month;
+        this.dayname = dayname;
+    }
+
     public PlainTextDate() {}
 
     public String getDay() {
