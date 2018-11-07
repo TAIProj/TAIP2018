@@ -20,6 +20,9 @@ using System.IO;
 using TouristAttractions.API.Controllers;
 using Microsoft.AspNetCore.Mvc.Versioning.Conventions;
 using TouristAttractions.API.Swagger;
+using Microsoft.EntityFrameworkCore;
+using TouristAttractions.Repositories;
+using TouristAttractions.Services.Services;
 
 namespace TouristAttractions.API
 {
@@ -57,7 +60,7 @@ namespace TouristAttractions.API
             services.AddMvc(
                 opt => opt.Filters.Add(typeof(CustomFilterAttribute))
                 )
-                .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1);                
+                .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1);
 
             //API Version
             services.AddApiVersioning(
@@ -114,6 +117,13 @@ namespace TouristAttractions.API
 
             //Custom services (.NET CORE 2.1)
             services.AddTransient<IAttractionService, AttractionService>();
+            services.AddTransient<IAddressService, AddressService>();
+            services.AddTransient<IAttractionRepository, AttractionRepository>();
+            services.AddTransient<IAddressRepository, AddressRepository>();
+            services.AddDbContext<AttractionsDbContext> (options => options.UseSqlServer(
+                Configuration.GetConnectionString("ConnectionString"),
+                b => b.MigrationsAssembly("TouristAttractions.API")
+            ));
         }
 
 
@@ -136,15 +146,12 @@ namespace TouristAttractions.API
             app.UseHttpsRedirection();
 
             //Swagger section
-            // Enable middleware to serve generated Swagger as a JSON endpoint.
             if (_appSettings.IsValid())
             {
                 if (_appSettings.Swagger.Enabled)
                 {                    
                     app.UseSwagger();
-
-                    // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), 
-                    // specifying the Swagger JSON endpoint.
+                    
                     app.UseSwaggerUI(options =>
                     {
                         // build a swagger endpoint for each discovered API version
@@ -187,9 +194,6 @@ namespace TouristAttractions.API
                 Title = $"{_appSettings.API.Title} {description.ApiVersion}",
                 Version = description.ApiVersion.ToString(),
                 Description = _appSettings.API.Description
-                //Contact = new Contact() { Name = "Bill Mei", Email = "bill.mei@somewhere.com" },
-                //TermsOfService = "Shareware",
-                //License = new License() { Name = "MIT", Url = "https://opensource.org/licenses/MIT" }
             };
 
             if (description.IsDeprecated)

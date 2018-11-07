@@ -9,7 +9,7 @@ namespace TouristAttractions.IoC.Configuration.Profiles
         public APIMappingProfile()
         {
             CreateMap<S.Attraction, DC.Attraction>();
-            CreateMap<S.Adress, DC.Adress>();
+            CreateMap<S.Address, DC.Address>();
         }
     }
 }

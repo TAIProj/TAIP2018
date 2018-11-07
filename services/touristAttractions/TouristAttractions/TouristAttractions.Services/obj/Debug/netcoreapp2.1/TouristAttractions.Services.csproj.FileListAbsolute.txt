@@ -2,11 +2,13 @@ D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractio
 D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.Services\bin\Debug\netcoreapp2.1\TouristAttractions.Services.dll
 D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.Services\bin\Debug\netcoreapp2.1\TouristAttractions.Services.pdb
 D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.Services\bin\Debug\netcoreapp2.1\TouristAttractions.API.Common.dll
+D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.Services\bin\Debug\netcoreapp2.1\TouristAttractions.API.DataContracts.dll
 D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.Services\bin\Debug\netcoreapp2.1\TouristAttractions.API.Common.pdb
+D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.Services\bin\Debug\netcoreapp2.1\TouristAttractions.API.DataContracts.pdb
+D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.Services\obj\Debug\netcoreapp2.1\TouristAttractions.Services.csprojAssemblyReference.cache
 D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.Services\obj\Debug\netcoreapp2.1\TouristAttractions.Services.csproj.CoreCompileInputs.cache
 D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.Services\obj\Debug\netcoreapp2.1\TouristAttractions.Services.AssemblyInfoInputs.cache
 D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.Services\obj\Debug\netcoreapp2.1\TouristAttractions.Services.AssemblyInfo.cs
+D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.Services\obj\Debug\netcoreapp2.1\TouristAttractions.Services.csproj.CopyComplete
 D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.Services\obj\Debug\netcoreapp2.1\TouristAttractions.Services.dll
 D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.Services\obj\Debug\netcoreapp2.1\TouristAttractions.Services.pdb
-D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.Services\obj\Debug\netcoreapp2.1\TouristAttractions.Services.csprojAssemblyReference.cache
-D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.Services\obj\Debug\netcoreapp2.1\TouristAttractions.Services.csproj.CopyComplete
