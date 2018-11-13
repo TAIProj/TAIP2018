@@ -1,5 +1,8 @@
 package com.waze.domain;
 
+import com.waze.annotations.Loggable;
+
+@Loggable
 public class WazeAlert {
 
     private String country;

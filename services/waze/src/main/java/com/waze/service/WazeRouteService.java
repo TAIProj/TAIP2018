@@ -7,12 +7,13 @@ import com.ning.http.client.Response;
 import com.waze.domain.*;
 import com.waze.exceptions.WazeException;
 import com.waze.utils.Utils;
+import org.springframework.stereotype.Service;
 
 import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
 
-
+@Service
 public class WazeRouteService {
     private static final String LOCATION = "location";
     private static final String RESPONSE = "response";
@@ -38,7 +39,7 @@ public class WazeRouteService {
             addressList.add(Utils.getStringOrNull("name", address));
         }
 
-        if (addressList.size() < 10) //TODO move size limit to conf file
+        if (addressList.size() < 10)
             return new WazeStreetPickerResult(addressList);
         else
             return new WazeStreetPickerResult(addressList.subList(0, 10));
