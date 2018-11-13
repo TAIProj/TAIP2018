@@ -1,9 +1,0 @@
-D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.API.DataContracts\bin\Debug\netcoreapp2.1\TouristAttractions.API.DataContracts.deps.json
-D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.API.DataContracts\bin\Debug\netcoreapp2.1\TouristAttractions.API.DataContracts.dll
-D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.API.DataContracts\bin\Debug\netcoreapp2.1\TouristAttractions.API.DataContracts.pdb
-D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.API.DataContracts\obj\Debug\netcoreapp2.1\TouristAttractions.API.DataContracts.csproj.CoreCompileInputs.cache
-D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.API.DataContracts\obj\Debug\netcoreapp2.1\TouristAttractions.API.DataContracts.AssemblyInfoInputs.cache
-D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.API.DataContracts\obj\Debug\netcoreapp2.1\TouristAttractions.API.DataContracts.AssemblyInfo.cs
-D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.API.DataContracts\obj\Debug\netcoreapp2.1\TouristAttractions.API.DataContracts.dll
-D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.API.DataContracts\obj\Debug\netcoreapp2.1\TouristAttractions.API.DataContracts.pdb
-D:\facultate\master-1\ASET\TAIP2018\services\touristAttractions\TouristAttractions\TouristAttractions.API.DataContracts\obj\Debug\netcoreapp2.1\TouristAttractions.API.DataContracts.csprojAssemblyReference.cache
