@@ -13,13 +13,18 @@ import java.util.List;
 
 public class InOrasEventsScrapper implements Scrapper{
 
-    public static final String TARGET_URL = "http://iasi.inoras.ro/evenimente/";
+    public String TARGET_URL = "http://iasi.inoras.ro/evenimente/";
     public static final String ROOT_ELEMENT_CLASS = ".rec_description";
     public static final String DAY_NAME = "dayname";
     public static final String DAY = "day";
     public static final String MONTH = "month";
     public static final String EVENT_NAME_CONTAINER_TAG = "a";
     public static final String DATE_CLASS_MARKER = "date";
+
+    public void changeUrl(String url) {
+        TARGET_URL = url;
+    }
+
 
     public InOrasEventsScrapper() {}
 
@@ -41,9 +46,7 @@ public class InOrasEventsScrapper implements Scrapper{
             beginDate.setDay(es.get(0).getElementsByClass(DAY).get(0).text());
             beginDate.setMonth(es.get(0).getElementsByClass(MONTH).get(0).text());
             beginDate.setDayname(es.get(0).getElementsByClass(DAY_NAME).get(0).text());
-
-//            System.out.println();
-
+            
             if (es.size() > 1) {
                 endDate.setDay(es.get(1).getElementsByClass(DAY).get(0).text());
                 endDate.setMonth(es.get(1).getElementsByClass(MONTH).get(0).text());

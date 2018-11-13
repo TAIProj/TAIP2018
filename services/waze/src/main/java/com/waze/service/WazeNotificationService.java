@@ -7,11 +7,12 @@ import com.waze.domain.WazeAlert;
 import com.waze.domain.WazeJam;
 import com.waze.domain.WazeTrafficNotificationsResponse;
 import com.waze.utils.Utils;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-
+@Service
 public class WazeNotificationService {
 
     ObjectMapper mapper = new ObjectMapper();
