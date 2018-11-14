@@ -18,5 +18,4 @@ class AttractionService {
     public Optional<Attraction> getById(Long id) {
         return repo.findById(id);
     }
-
 }

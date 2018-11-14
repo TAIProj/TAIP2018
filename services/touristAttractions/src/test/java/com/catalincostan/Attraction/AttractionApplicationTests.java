@@ -42,6 +42,4 @@ public class AttractionApplicationTests {
 			assertThat(rep.get().getName()).isEqualTo(srv.get().getName());
 		}
 	}
-
-
 }
