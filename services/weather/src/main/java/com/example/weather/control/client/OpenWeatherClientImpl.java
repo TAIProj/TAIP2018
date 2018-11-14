@@ -1,10 +1,8 @@
 package com.example.weather.control.client;
 
+import com.example.weather.aop.Retry;
 import com.example.weather.control.client.pojo.OpenWeatherResponse;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.MediaType;
+import org.springframework.http.*;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
@@ -13,6 +11,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 public class OpenWeatherClientImpl implements OpenWeatherClient {
 
     @Override
+    @Retry
     public OpenWeatherResponse getCurrentWeather() {
         RestTemplate restTemplate = new RestTemplate();
         HttpHeaders headers = new HttpHeaders();

@@ -1,6 +1,7 @@
 package com.example.weather.boundry.controller;
 
 
+import com.example.weather.aop.Retry;
 import com.example.weather.control.service.WeatherService;
 import com.example.weather.entity.model.Weather;
 import org.modelmapper.ModelMapper;
@@ -23,6 +24,12 @@ public class WeatherController {
     @GetMapping
     public Weather getCurrentWeather() {
         return weatherService.getCurrentWeather();
+    }
+
+    @Retry(retryAttempts = 3, ignoreExceptions = {NullPointerException.class})
+    public void test() {
+        throw new NullPointerException();
+
     }
 
 }

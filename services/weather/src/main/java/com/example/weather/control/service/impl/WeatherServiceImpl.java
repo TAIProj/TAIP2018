@@ -16,16 +16,12 @@ import java.util.Optional;
 @Service
 public class WeatherServiceImpl implements WeatherService {
 
-    private WeatherRepository weatherRepository;
-    private ModelMapper modelMapper;
-    private OpenWeatherClient openWeatherClient;
-
     @Autowired
-    public WeatherServiceImpl(WeatherRepository weatherRepository, ModelMapper modelMapper, OpenWeatherClient openWeatherClient) {
-        this.weatherRepository = weatherRepository;
-        this.modelMapper = modelMapper;
-        this.openWeatherClient = openWeatherClient;
-    }
+    private WeatherRepository weatherRepository;
+    @Autowired
+    private ModelMapper modelMapper;
+    @Autowired
+    private OpenWeatherClient openWeatherClient;
 
     @Override
     public Weather save(Weather entity) {
