@@ -39,7 +39,6 @@ public class DemoApplicationTests {
     @Test
     public void whenApiIsCalled_ThenHttpStatusReturned_ShouldBe_200() {
         try {
-
             URL url = new URL("https://geocoder.api.here.com/6.2/geocode.json?app_id=MJodHR7FgrmWJh1YyBZf&app_code=ANkzjCNocTLMyl-PfYElzA&city=iasi&country=ro");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("GET");
