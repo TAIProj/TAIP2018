@@ -1,7 +1,0 @@
-scrappers/InOrasEventsScrapper.class
-managers/EventsManager.class
-eventsScrapper/TestingEndpoint.class
-scrappers/ScrappersObservers.class
-scrappers/Scrapper.class
-beans/Event.class
-beans/PlainTextDate.class

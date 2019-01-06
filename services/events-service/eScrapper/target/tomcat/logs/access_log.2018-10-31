@@ -1,1 +1,0 @@
-0:0:0:0:0:0:0:1 - - [31/Oct/2018:00:40:37 +0200] "GET /eScrapper/testEndpoint HTTP/1.1" 200 610 http-bio-8888-exec-1 773
