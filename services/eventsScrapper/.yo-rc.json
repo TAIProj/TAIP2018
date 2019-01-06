@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.scrapp"
+    },
+    "jhipsterVersion": "5.7.2",
+    "applicationType": "microservice",
+    "baseName": "scrapper",
+    "packageName": "com.scrapp",
+    "packageFolder": "com/scrapp",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NmJmNjA0Nzk4NzVmYjNkZTk1M2MwODA0OTg5MDgxZjdkMDM0OTMxNmFmNTdkOTMzMGMwZjlkZjA5ZmEyNjZmNGMwYWQxYmZiOWEyNTQ1NDc4NTgxZDhkYzhiZjIzNzYwYTliZWY5ZGVlYjQ0ZDBkNzQ5ZWZmYjI2MWYxOTZkMWI=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
